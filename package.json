@@ -1,0 +1,43 @@
+{
+  "name": "dev-local-notes",
+  "version": "1.0.0",
+  "description": "🗒️ **Dev Local Notes** is a lightweight, hackable local notes tool for developers",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "localdevnotes-server": "./backend/server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --copy-files",
+    "start:backend": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinfinit/dev-local-notes.git"
+  },
+  "keywords": ["debug", "dev", "local", "notes", "react", "server","json","persistence","logging","debugger","dev-tools","react-devtools","devtools","debug-tools","utility"],
+  "author": "cinfinit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1"
+  }
+}
