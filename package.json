@@ -1,6 +1,6 @@
 {
   "name": "dev-local-notes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🗒️ **Dev Local Notes** is a lightweight, hackable local notes tool for developers",
   "type": "module",
   "main": "dist/index.js",
@@ -20,7 +20,23 @@
     "type": "git",
     "url": "git+https://github.com/cinfinit/dev-local-notes.git"
   },
-  "keywords": ["debug", "dev", "local", "notes", "react", "server","json","persistence","logging","debugger","dev-tools","react-devtools","devtools","debug-tools","utility"],
+  "keywords": [
+    "debug",
+    "dev",
+    "local",
+    "notes",
+    "react",
+    "server",
+    "json",
+    "persistence",
+    "logging",
+    "debugger",
+    "dev-tools",
+    "react-devtools",
+    "devtools",
+    "debug-tools",
+    "utility"
+  ],
   "author": "cinfinit",
   "license": "ISC",
   "dependencies": {
